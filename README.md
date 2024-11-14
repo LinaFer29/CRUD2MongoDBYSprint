@@ -122,7 +122,7 @@ Para actualizar la dirección de una persona desde la ruta `http://localhost:808
 }
 ```
 ## Actualizar Email
-Para actualizar la dirección de una persona desde la ruta `http://localhost:8080/api/person/update-address` agrege el siguiente objeto JSON en el Body de la petición `PUT`, indicando el id de la persona a la que se hara la modificación y la nueva dirección.
+Para actualizar el email de una persona desde la ruta `http://localhost:8080/api/person/update-email` agrege el siguiente objeto JSON en el Body de la petición `PUT`, indicando el id de la persona a la que se hara la modificación y el nuevo correo.
 
 ```json
 {
