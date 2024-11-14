@@ -14,7 +14,7 @@ Para crear una persona desde la ruta `http://localhost:8080/api/person` agrege l
         "address": "ahsjdaskj",
         "emailAddress": "asdjsadj",
         "cellNumber": "3044278239",
-        "createAt": "2024-11-14T18:41:11.360+00:00"
+        "createAt": null
     },
     {
         "id": "661c2e18f474b976ad17ba1f",
