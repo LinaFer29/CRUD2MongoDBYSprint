@@ -8,7 +8,7 @@ Para crear una persona desde la ruta `http://localhost:8080/api/person` agrege l
     {
         "id": "6736444720003f5763061751",
         "dni": "8428shas",
-        "firstName": "hector",
+        "firstName": "HECTOR",
         "lastName": "vanegas",
         "age": "40",
         "address": "ahsjdaskj",
@@ -30,7 +30,7 @@ Para crear una persona desde la ruta `http://localhost:8080/api/person` agrege l
     {
         "id": "661c2e18f474b976ad17ba20",
         "dni": "87654321",
-        "firstName": "María",
+        "firstName": "MARIA",
         "lastName": "Gómez",
         "age": 25,
         "address": "Av. Siempre Viva 742",
@@ -41,7 +41,7 @@ Para crear una persona desde la ruta `http://localhost:8080/api/person` agrege l
     {
         "id": "661c2e18f474b976ad17ba21",
         "dni": "56781234",
-        "firstName": "Carlos",
+        "firstName": "CARLOS",
         "lastName": "López",
         "age": 40,
         "address": "Calle 45 #10-20",
@@ -52,7 +52,7 @@ Para crear una persona desde la ruta `http://localhost:8080/api/person` agrege l
     {
         "id": "661c2e18f474b976ad17ba22",
         "dni": "34567812",
-        "firstName": "Ana",
+        "firstName": "MARIA",
         "lastName": "Martínez",
         "age": 35,
         "address": "Carrera 15 #32-12",
@@ -70,6 +70,28 @@ Para crear una persona desde la ruta `http://localhost:8080/api/person` agrege l
         "emailAddress": "luis.ramirez@example.com",
         "cellNumber": 3123456789,
         "createAt": null
+    },
+    {
+    "id": "a5647b82f1204b30891d2ef5",
+    "dni": "98765432",
+    "firstName": "Patricia",
+    "lastName": "Fernández",
+    "age": 32,
+    "address": "Callejón del Sol 22",
+    "emailAddress": "patricia.fernandez@example.com",
+    "cellNumber": "3167894321",
+    "createAt": null
+    },
+    {
+    "id": "bb3217fa98a22a76d13b1c34",
+    "dni": "12349876",
+    "firstName": "CARLOS",
+    "lastName": "Méndez",
+    "age": 45,
+    "address": "Avenida Libertad 76",
+    "emailAddress": "eduardo.mendez@example.com",
+    "cellNumber": "3106549876",
+    "createAt": null
     }
 ]
 ```
@@ -145,5 +167,8 @@ Para obtener todas las personas, debe hacer la petición `GET` desde la ruta `ht
 
 ## Encontrar Todos Upper Case
 Para obtener todas las personas con nombre en mayúsculas, debe hacer la petición `GET` desde la ruta `http://localhost:8080/api/person/all-upper-case` y así obtener la información buscada.
+
+## Encontrar Todos Upper Case Repeat
+Para obtener todas las personas cuyo nombre esta mayúsculas y se repite, debe hacer la petición `GET` desde la ruta `http://localhost:8080/api/person/all-upper-case-repeat` y así obtener la información buscada.
 
 
